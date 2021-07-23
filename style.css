@@ -1,0 +1,12 @@
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: lato, sans-serif;
+}
+</style>
