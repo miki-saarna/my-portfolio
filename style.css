@@ -11,7 +11,7 @@ body {
   width: 1000px;
   margin 0 auto;
   background-color: #FAF3DD;
-  font-size: 12px;
+  font-size: 16px;
   color: #FE6472;
   align-items: center;
   justify-content: center;
@@ -26,14 +26,16 @@ header h1 {
   color: #ffa69e;
 }
 
-header p {
-  size: 32px;
-}
 nav {
   display: flex;
   justify-content: center;
   align-items: center;
   text-decoration: none;
+  size: 58px;
+}
+
+nav a {
+  margin: 10px;
 }
 
 nav a:hover{
