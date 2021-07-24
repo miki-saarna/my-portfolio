@@ -11,31 +11,44 @@
       <header>
         <h1>A Portfolio by Mikito Saarna</h1>
       <!-- </header> -->
-      <!-- I know navigation bar wasn't a requirement but wanted to add it anyway (the pages themselves are sparse) -->
+      <!-- I know navigation bar wasn't a requirement but wanted to add it anyway (I didn't create separate pages themselves, just the nav bar) -->
       <nav>
-        <a href="home.html">Home</a>
-        <a href="about.html">About</a>
+        <a href="index.html">Home</a>
+        <a href="index.html">About</a>
         <a href="gallery.html">Gallery</a>
-        <a href="contact.html">Contact Me</a>
+        <a href="#contact-me">Contact Me</a>
       </nav>
       </header>
-      <main>
-        <p>My name is Mikito Saarna, and I am an aspiring software engineer with a diverse background. By reading this portfolio, I hope to impart on you a glimmer of the inspiration that makes up my daily life<p>
-          <img src="#" alt="A portrait of myself.">
+      <!-- entering the content of the page -->
+      <main> <!-- unclear on why <strong> and <b> are not working within my HTML -->
+        <p>My name is <strong>Mikito Saarna</strong>, and I am an aspiring <strong>software engineer</strong>.<p>
+          <img src="images/self-portrait.jpg" alt="A portrait of myself.">
+      <!-- about me section -->
           <section>
-            <h3>The Journey Begins</h3>
-            <p>I grew up in Kansas City for most of my life, but shortly after graduating from high school, I departed my parents' house to attend a Gap-year program called <a href="https://www.generationpeaceacademy.org/">Generation Peace Academy</a> (GPA). This was a very moumental and precious time of my life where I explored different topics such as my own character, spirituality, relationships, my dreams and aspirations and much more. I ended up extending my time in GPA to a total of 3 years</p>
-            <hr>
-            <p>About a year after graduating from GPA, I went on a bike-packing trip from New Jersey to Detroit (I also road through a small portion of Canada). This trip taught me that I can accomplish anything I set my heart and mind to.</p>
-            <img src="#" alt="my sick 'ride' on my 2 week long bike-packing trip">
-            <p>I moved to Las Vegas a month after my bike-packing trip and have been living here ever since. I worked with various E-commerce start-ups until I decided to have my career change and study software engineering with Thinkful. During this time I also met and married my wife Misato.<p>
-            <img src="#" alt="a picture of my wife and I">
+            <h2>About Me</h2>
+            <p>I grew up in Kansas City for most of my life, but currently reside in Las Vegas, NV.</p>
+            <p>What I have done in the past several years:
+            <ul>
+              <li>Attended a gap-year program called <a href="https://www.generationpeaceacademy.org/">Generation Peace Academy (GPA)</a></li>
+              <li>Went bikepacking from New Jersey to Detroit (also went through Canada a little)</li>
+              <li>Began working within E-commerce start-ups with a fairly large Amazon-presence</li>
+              <li>Began an online E-commerce store called YUBIWA</li>
+              <li>Married the love of my life</li>
+              </ul>
+              <hr>
+            <!-- speaking in regards to software engineering -->
+              <h2>Me & Software Engineering</h2>
+              <p>While I studied calculus and phsyics extensively in high school and really came to love it, it's not something that followed my life immediately afterwards. Now, after finally returning to <i>school </i> through <strong>Thinkful</strong>, the same passion and drive to untangle or deconstruct logic and the ability to be able to create worlds run by mathematical operation is resurfacing within me.</p>
+              <p>In addition to a love for logical problem solving, I've had many opportunities involving <strong>team-collaboration</strong>. The environment of E-commerce start-ups takes extreme <b>ownership</b> alongside extreme <b>teamwork</b>. I've had experiences working alongside the owner trying to create the best <i>PPC</i> advertising plan and discussing and launching new products for the brand.</p>
+
+            <img src="images/bike-trip.jpg" alt="me and my sick 'ride' on my 2 week long bike-packing trip">
           </section>
+          <!-- a little more random bio -->
           <section>
-            <h3>Explored & Exploring</h3>
+            <h2>Explored & Exploring</h2>
             <p>Don't let the heading of this section fool you - this isn't a recollection of the Himalayan Mountains I've traversed, the get-away trains I have illegally boarded, or the jungles of the Amazon I narrowly escaped death fighting a jaguar... because I have done none of those things. Rather, this will be a list of topics or interests I have explored or currently exploring, and perhaps you may be interested in some of them.<p>
               <ul>
-                <li>Software engineering (obviously)</li>
+                <li>Software engineering</li>
                 <li>Reading non-fiction</li>
                 <li>Cooking</li>
                 <li>Soccer and volleyball</li>
@@ -44,22 +57,25 @@
               </ul>
               <hr>
         </section>
-        <article>
-          <h2>Learn more about me<h2>
-            <p>I hope you loved what you read, and if you're interested to find out more about me, check out my other projects here:<p>
+      <!-- contact me section -->
+        <article id="contact-me">
+          <h3>Learn more about me</h3>
+            <p>I hope you enjoyed what you read, and if you're interested to find out more about me, check out my other projects here:<p>
               <ol>
                 <li><a href="https://www.linkedin.com/in/mikito-saarna-126725213/" target="_blank">LinkedIn</a></li>
                 <li><a href="https://github.com/miki-saarna" target="_blank">GitHub</a></li>
-                <li>Check out <a href="https://yubiwarings.com/" target="_blank">YUBIWA</a>!</li>
+                <li>Check out <a href="https://yubiwarings.com/" target="_blank">YUBIWA</a>!</li> <!-- included my e-commerce business -->
                 <li>Send me an <a href="mailto:mikitosaarna@gmail.com">email</a>!</li>
-                <li>You can also call me at: <a href="tel:720-295-7484">720-295-7484</a></li>
+                <li>You can also call me at: <a href="tel:xxx-xxx-xxxx">xxx-xxx-xxxx</a></li>
               </ol>
-              <hr>
+              <!-- had extreme difficulty using style elements on the following <article> element. Perhaps because it's Google's link? -->
         <article>
-          <a href="https://www.google.com/search?sxsrf=ALeKk031kl-PnVDKlDHSYL7TWQg7u8KOJg:1627079902143&q=746+oakmont+ave+las+vegas,+nv&spell=1&sa=X&ved=2ahUKEwjD89n8oPrxAhUFbs0KHbTmBJQQBSgAegQIARAw&biw=1440&bih=764#" target="_blank"><img src="https://www.google.com/maps/vt/data=EQcNaI8-zxBWxGTklS5mL4-gs_nRuI0MNe18VIeNVuTrACW9TJz0VgzaMEGqkQ60iIfbRY6-ndk5qPOGkrwvXKPXTwJddPFsvrwxfhbEm2DHiljVNWpTPuPvy92GjL40tQxU-XC0xIEU3sdncB7dtXqQXFQ2wKqawpCuboQs2v8EZAe4cppLJM36LhwsLUa5ZJ9sF0jHc7l9PFAnPLFYggJK5NfT93DhQnnnhbja__9q8sd8jQmt_1W30jSlgn29UkJ20OVRJhtmtOl75MZ9x2tK167AqWoFbVj_WuMP" alt="google maps location of my address"</a>
+          <a href="https://www.google.com/search?sxsrf=ALeKk031kl-PnVDKlDHSYL7TWQg7u8KOJg:1627079902143&q=746+oakmont+ave+las+vegas,+nv&spell=1&sa=X&ved=2ahUKEwjD89n8oPrxAhUFbs0KHbTmBJQQBSgAegQIARAw&biw=1440&bih=764#" target="_blank"><img src="https://www.google.com/maps/vt/data=EQcNaI8-zxBWxGTklS5mL4-gs_nRuI0MNe18VIeNVuTrACW9TJz0VgzaMEGqkQ60iIfbRY6-ndk5qPOGkrwvXKPXTwJddPFsvrwxfhbEm2DHiljVNWpTPuPvy92GjL40tQxU-XC0xIEU3sdncB7dtXqQXFQ2wKqawpCuboQs2v8EZAe4cppLJM36LhwsLUa5ZJ9sF0jHc7l9PFAnPLFYggJK5NfT93DhQnnnhbja__9q8sd8jQmt_1W30jSlgn29UkJ20OVRJhtmtOl75MZ9x2tK167AqWoFbVj_WuMP" alt="google maps location of my address"></a>
+          </article>
       </main>
       <footer>
-        <p>Thank you for visiting my portfolio!</p>
+        <p>Thank you for visiting my portfolio</p>
+        <p>Mikito Saarna, 2021</p>
       </footer>
       <script src="script.js"></style>
     </body>

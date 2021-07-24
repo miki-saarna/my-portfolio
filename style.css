@@ -1,4 +1,3 @@
-<style>
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
 
@@ -7,39 +6,94 @@
 }
 
 body {
-  font-family: lato;
-  width: 960px;
-  margin 0 auto;
-  padding: 0px 80px;
-  background-color: #FAF3DD;
-  font-size: 16px;
-  color: #FE6472;
-  align-items: center;
-  justify-content: center;
+  font-family: Lato, Arial; // imported font from google
+  background-color: grey;
+  font-size: 17px;
+  color: #1d4e89;
 }
 
-header {
-  background-color: #AED9E0;
+main{
+  padding: 0px 80px;
+  width: 780px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main > p {
+  text-align: center;
+  margin: 25px 0px;
+}
+
+h2, h3 {
+  text-align: center;
+}
+
+img {
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; // not completely clear what 'auto' means in these cases, but it helps center the images
+
+}
+
+header, footer {
+  background-color: #1d4e89;
+  width: 100%;
+  text-align: center;
 }
 
 header h1 {
-  size: 64px;
-  color: #ffa69e;
+  font-size: 44px;
+  color: white;
+  margin-top: 0px; // Without this code, there's an extra margin above my header
+}
+
+footer {
+  height: 85px;
+  color: white;
+
+}
+footer p {
+  margin-bottom: 0px; // Without this code, there's an extra margin below my footer
+  padding-top:10px;
 }
 
 nav {
   display: flex;
   justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  size: 58px;
+  font-size: 23px;
+  padding-bottom: 15px;
 }
 
 nav a {
-  margin: 10px;
+  margin: 0px 20px;
+  text-decoration: none;
+}
+nav a:link{
+  color: white;
+}
+nav a:visited{
+  color: white;
+}
+nav a:hover{
+  color: #ffa19e;
+}
+main a:hover{
+  color: #ffa19e;
+}
+main a:link {
+  color: #1d4e89;
+}
+main a:visted{
+  color: #1d4e89;
 }
 
-nav a:hover{
-  color: ##ffa19e;
+hr {
+  border: 1px solid black;
+  margin: 80px auto;
+  width: 375px;
+  border-radius: 78%;
+  padding: 2px 0px;
+  background-color: white;
 }
-</style>
