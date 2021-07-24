@@ -8,5 +8,7 @@
 
 body {
   font-family: lato;
+  width: 1000px;
+  margin 0 auto;
 }
 </style>
